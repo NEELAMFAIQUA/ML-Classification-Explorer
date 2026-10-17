@@ -1,8 +1,8 @@
 # Classification Explorer
 
-An original hands-on classification comparison using scikit-learn's built-in
-Iris dataset, stratified train/test split, standardization, Logistic Regression
-or K-nearest neighbors, accuracy, and a confusion matrix.
+An original interactive ML learning app with two focused examples: Logistic
+Regression for ad-click classification and K-nearest neighbors for finding
+similar fictional Titanic-shaped passenger profiles.
 
 ## Run
 
@@ -13,5 +13,7 @@ python -m pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Metrics depend on the sample split and are for learning only, not general
-performance guarantees. Run tests with `python -m unittest discover -s tests -v`.
+The datasets are generated teaching examples, not actual advertising outcomes
+or historical passenger records. Metrics and distances are for learning only,
+not general performance guarantees. Run tests with
+`python -m unittest discover -s tests -v`.
